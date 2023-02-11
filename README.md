@@ -1,5 +1,5 @@
-# cashier-app
-Cashier Application sederhana dengan bahasa Python untuk Pacmann Project
+# Cashier-App
+Cashier Application sederhana dengan bahasa pemrograman Python untuk Pacmann Project
 
 # Latar Belakang
 Seorang pemilik supermatket besar disalah satu kota di Indonesia memiliki rencana untuk melakukan perbaikan proses bisnis, yaitu ingin membuat sistem kasir yang self-service di supermarket miliknya. Sehingga customer bisa langsung memasukan item yang dibeli, jumlah item yang dibeli dan harga item yang dibeli.
@@ -58,3 +58,6 @@ Setelah dipikir kembali customer salah memasukan semua item yang dibelanjakannya
 Setelah customer selesai belanja, maka akan menghitung total belanja yang harus dibayar menggunakan method ```total_price()```. Sebelum mengeluarkan total belanja yang dibayar, akan menampilkan semua item yang dibeli. 
 
 ![Link](https://github.com/ura-mita/cashier-app/blob/main/pictures/total-price.jpg)
+
+# Saran Perbaikan
+Kita harus melakukan uji coba kepada customer sebagai user pertama yang memakai aplikasi cashier self-service ini. Kemudian membuat kuisoner untuk kritik dan saran untuk membuat cashier aplikasi ini menjadi lebih baik. Lalu diimplemntasi sehingga lebih memudahkan customer dalam bertransaksi.
