@@ -30,3 +30,31 @@ Seorang pemilik supermatket besar disalah satu kota di Indonesia memiliki rencan
 - ```total_harga``` : Method untuk menghitung total harga/item
 - ```total_price``` : Method yang digunakan untuk menampilkan total harga seluruh produk
 - ```Main_menu``` : Method menampilkan menu utama aplikasi kasir. Pada menu tersebut terdapat 9 pilihan seperti tambah pesanan, periksa pesanan, update nama pesanan dan sebagainya. Saat user memasukkan pilihannya, program akan mengeksekusi perintah sesuai dengan pilihan yang dipilih. 
+
+# Test Case
+* Test 1:
+
+Customer ingin menambahkan item baru menggunakan method ```add_item()``` dan memeriksa item yang ditambahkan menggunakan method ```check_order()```,  dengan sebagai berikut:
+
+    - Nama item Ayam Goreng, Qty: 2, Harga: 20000
+    - Nama item Pasta Gigi. Qty: 3, Harga:15000
+
+![Link](https://github.com/ura-mita/cashier-app/blob/main/pictures/add-item.jpg)
+
+- Test 2:
+
+Ternyata customer salah membeli salah satu item dari belanjaannya, maka customer menggunakan method ```delete_item()```. Item yang ingin dihapus adalah Pasta Gigi.
+
+![Link](https://github.com/ura-mita/cashier-app/blob/main/pictures/remove-item.jpg)
+
+- Test 3:
+
+Setelah dipikir kembali customer salah memasukan semua item yang dibelanjakannya. Daripada menghapus satu-satu, maka customer cukup menggunakan method ```reset_transction()```.
+
+![Link](https://github.com/ura-mita/cashier-app/blob/main/pictures/reset-transaction.jpg)
+
+- Test 4:
+
+Setelah customer selesai belanja, maka akan menghitung total belanja yang harus dibayar menggunakan method ```total_price()```. Sebelum mengeluarkan total belanja yang dibayar, akan menampilkan semua item yang dibeli. 
+
+![Link](https://github.com/ura-mita/cashier-app/blob/main/pictures/total-price.jpg)
