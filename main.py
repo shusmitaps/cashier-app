@@ -239,8 +239,8 @@ class Kasir(Transaction):
               self.trnsct_123.total_price()
               lanjut_beli = input("Ingin membeli lagi? <y/n> ")
               if lanjut_beli == "n" or lanjut_beli == "N":
-               print("Terima kasih sudah mengunjungi PaccMaret")
-              break
+                print("Terima kasih sudah mengunjungi PaccMaret")
+                break
             else:
               print("keluar aplikasi. Terima kasih telah mengunjungi PaccMaret")
               break
